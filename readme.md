@@ -13,7 +13,7 @@ $ npm install --save ports-from-pid
 Get `all` the ports associated with the Process:
 
 ```js
-const portFromPid = require("port-from-pid");
+const portFromPid = require("ports-from-pid");
 
 portFromPid(9364).then(data => {
   console.log(data);
@@ -36,7 +36,7 @@ portFromPid(9364).then(data => {
 ### With Options
 
 ```js
-const portFromPid = require("port-from-pid");
+const portFromPid = require("ports-from-pid");
 
 portFromPid(9364, { onlyPorts: true }).then(data => {
   console.log(data);
