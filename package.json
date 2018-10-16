@@ -1,0 +1,24 @@
+{
+  "name": "ports-from-pid",
+  "version": "0.0.1",
+  "description": "Get Ports from PID",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "get",
+    "port",
+    "netstat",
+    "pid"
+  ],
+  "author": {
+    "name": "Syed Saad",
+    "email": "hassan.saad.mail@gmail.com",
+    "url": "http://github.com/syedsaadh"
+  },
+  "license": "MIT"
+}
